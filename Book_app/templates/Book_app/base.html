@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+{% load static %}
+<html >
+    <head>
+        <title>Books CRUD Operations</title>
+        <link rel="stylesheet" href=" {% static 'Book_app/css/bootstrap.css' %}">
+    </head>
+    <body>
+        <div class ="container mt-5">
+        <h2 class="text-center aler00000000000000t alert-info"> BOOK LIBRARY APPLICATION</h2>
+        {% block content %}  Bootstrap Page {% endblock content %}
+        <script src="{ % static 'Book_app/js/jquery.js' %}"></script>
+        <script src="{ % static 'Book_app/js/popper.js' %}"></script>
+        <script src="{ % static 'Book_app/js/boottstrap.js' %}"></script>
+
+ 
+    </body>
+    </html>
